@@ -1,0 +1,66 @@
+#html,
+body {
+    background-color: #555;
+}
+.container {
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container >img {
+    width: 100px;
+    margin: 10px;
+    padding: 0px 100px;
+}
+.container strong {
+    color: whitesmoke;
+    margin: 0px;
+    padding: 10px
+}
+.container input {
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: medium;
+    background-color: gray;
+    color: whitesmoke;
+}
+.container input:hover {
+    background-color: darkgrey;
+    box-shadow: 1px 1px 5px  whitesmoke;
+}
+.container .a_btn {
+    width: 300px;
+    height: 45px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #444;
+}
+.container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: small;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+.container a:hover {
+    background-color: darkgray;
+    box-shadow: 1px 1px 10px  whitesmoke;
+}
+.container .social_media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
