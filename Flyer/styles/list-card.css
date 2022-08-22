@@ -6,15 +6,16 @@
 }
 body,
 html {
-    width: 520px;
+    width: 100vw;
     height: 100vh;
-    background-color: #666;
+    background-color: rgb(5, 5, 131);
 }
 #profile-info {
     display: flex;
     font-size: 14px;
-    padding: 10px;
-    background-color: #556;
+    padding: 1vw;
+    background-color: rgb(5, 5, 131);
+    margin-bottom: 1vw;
 }
 #profile-info img {
     width: 20vw;

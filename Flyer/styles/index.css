@@ -10,6 +10,10 @@
     height: 100vh;
 }
 
+.material-icons.md {
+    font-size: 1.8vw;
+}
+
 button {
     width: 3vw;
     height: 3vw;
@@ -27,8 +31,8 @@ ul {
 }
 
 img {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -41,12 +45,12 @@ img {
 
 #header {
     width: 100%;
-    min-height: 10vh;
+    height: 10vh;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #445;
+    background-color: rgb(5, 5, 131);
 }
 
 .search-input {
@@ -57,29 +61,29 @@ img {
 
 .search-input #text-input {
     width: 40vw;
-    min-height: 6.6vh;
-    padding-left: 10px;
+    height: 6vh;
+    padding-left: 1vw;
     font-size: 16px;
     color: whitesmoke;
-    background-color: #556;
+    background-color: rgb(5, 5, 120);
 }
 .search-input #btn-search {
     border-radius: 0;
     margin: 0;
     width: 4vw;
-    min-height: 3vh;
+    height: 6vh;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: #556;
+    background-color: rgb(5, 5, 120);
 }
 .search-input #btn-gps {
     border-radius: 0px;
     margin: 0px;
     width: 4vw;
-    min-height: 3vh;
+    height: 6vh;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #556;
+    background-color: rgb(5, 5, 131);
 }
 
 .header-options {
@@ -96,7 +100,7 @@ img {
     height: 100vh;
     border-top: 2px solid silver;
     color: silver;
-    background-color: #445;
+    background-color: rgb(5, 5, 131);
 }
 
 #filters-menu ul li .filters {
@@ -127,6 +131,4 @@ img {
     font-weight: bold;
 }
 
-.material-icons.md{
-    font-size: 1.8vw;
-}
+

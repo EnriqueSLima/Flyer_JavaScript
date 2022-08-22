@@ -1,5 +1,3 @@
-<!-- /* NO CASO DE QQR MUDANÇA NO CÓDIGO, COMENTE O CÓDIGO ANTIGO */ -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +6,8 @@
     <title> Flyer </title>
     <!-- ESTILOS -->
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="/styles/index.css">
-    <link rel="stylesheet" href="/styles/navigation.css">
+    <link rel="stylesheet" href="/Web-App-Flyer/Flyer/styles/index.css">
+    <link rel="stylesheet" href="/Web-App-Flyer/Flyer/styles/navigation.css">
     <!-- GOOGLE ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
@@ -24,7 +22,7 @@
             <button id="btn-show">
                 <span class="material-icons md">add</span>
             </button>
-            <img class="logo" src="/images/flyer-icon.png" alt="logo">
+            <img class="logo" src="/Web-App-Flyer/Flyer/images/flyer-icon.png" alt="logo">
         </div>
         <div>
             <button id="btn-map"><span class="material-icons md">map</span></button>
@@ -149,27 +147,21 @@
         </ul>
     </nav>
 
-    <!-- MEU SCRIPT -->
-
-    <script src="/scripts/index.js"></script>
-
     <!-- PAGINA DE NAVEGAÇÃO -->
     <div class="navigation">
-        <div>
-            <div id="main-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14628.280182723382!2d-46.5403904!3d-23.56592765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1604549176232!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-    
-           <div id="details" >
-                <h5>D E T A I L S</h5> 
-                <iframe src="/views/profile-acc.html" width="100%" height="100%" frameborder="0" style="border:0;"></iframe>
-            </div>
+        <div id="main-map">
+            <h5>M A P</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14628.280182723382!2d-46.5403904!3d-23.56592765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1604549176232!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
         </div>
-
         <div id="list">
-            h5>L I S T</h5>
-            <iframe src="/views/list-card.html" width="100%" height="100%" frameborder="0" style="border:0;"></iframe>
+            <h5>L I S T</h5>
+            <iframe src="/Web-App-Flyer/Flyer/views/list-card.html" width="100%" height="100%" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0" frameborder="0"></iframe>
+            <!-- Class Details -->
         </div> 
     </div>
+
+    <!-- MEU SCRIPT -->
+
+    <script src="/Web-App-Flyer/Flyer/scripts/index.js"></script>
 </body>
 </html>

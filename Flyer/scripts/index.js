@@ -66,12 +66,12 @@ $btnList.onclick = btnListSelected;
 function btnGpsSelected(){
     if ($btnGps.style.color == "cornflowerblue"){
         $btnGps.style.color = "silver";
-        $btnGps.style.backgroundColor = "#556"
+        $btnGps.style.backgroundColor = "rgb(5, 5, 131);"
         document.getElementById('details').innerHTML = "GPS DESABILITADO";
     }
     else {
         $btnGps.style.color = "cornflowerblue";
-        $btnGps.style.backgroundColor = "#668"
+        $btnGps.style.backgroundColor = "rgb(5, 5, 131);;"
         document.getElementById('details').innerHTML = "GPS HABILITADO";
     }
  }
@@ -79,7 +79,7 @@ $btnGps.onclick = btnGpsSelected;
 
 function btnSearchSelected(){
     $btnSearch.style.color = "cornflowerblue";
-    $btnSearch.style.backgroundColor = "#668"
+    $btnSearch.style.backgroundColor = "rgb(5, 5, 131);"
     document.getElementById('details').innerHTML = "SEARCH";
 
 }

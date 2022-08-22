@@ -1,2 +1,2 @@
-# Flyer
-Web-aplication for marketing and propaganda of small business.
+# Web-App-Flyer
+Web App to find business and services around your location.
