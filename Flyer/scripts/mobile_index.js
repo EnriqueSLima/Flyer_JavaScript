@@ -54,7 +54,7 @@ function btnListSelected(){
 $btnList.onclick = btnListSelected;
 
 
-/* FUNÇÕES PARA OS FILTROS E SUB-FILTROS */
+/* FUNÇÕES PARA OS FILTROS E SUB-FILTROS hh*/
 
 function subFiltersExpand(event){
     for ( j = 0; j < $filters.length; j++ ){
