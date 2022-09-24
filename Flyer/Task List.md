@@ -13,3 +13,5 @@ Fazer html's para os perfis e listas na área de pesquisa.
 Criar as configurações de conta de usuário.
 
 Criar interfase das "promos" e dos favoritos
+
+Estruturas mobile First
