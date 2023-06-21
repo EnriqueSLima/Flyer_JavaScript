@@ -15,3 +15,5 @@ Funcionalidade dos cards da lista (mostrar abaixo do mapa).
 Criar as configurações de conta de usuário.
 
 Criar interfase das "promos" e dos favoritos
+
+Redimensionar Logotio
